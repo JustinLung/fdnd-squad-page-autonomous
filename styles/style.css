@@ -139,17 +139,23 @@ a {
   display: grid;
   grid-template-columns: 300px;
   grid-template-rows: 300px;
-  grid-gap: 15px;
+  grid-gap: 40px;
   justify-items: center;
   
   margin-bottom: 2em;
 }
 
-#squad .squad {
+#squad .student {
   height: 300px;
   width: 300px;
+  border-radius: 1em;
   background-color: #13073d;
+  transition: .3s ease;
 }
+
+#squad .student:hover {
+  transform: scale(1.1);
+} 
 
 #squad h3 {
   text-align: center;
