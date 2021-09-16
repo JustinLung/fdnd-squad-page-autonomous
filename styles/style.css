@@ -90,23 +90,8 @@ a {
     transform: scale(1.1);
 }
 
-#home .windows-logo-left {
-    position: absolute;
-    bottom: -20px;
-    left: 50px;
-    max-width: 75px;
-}
-
-#home .windows-logo-right {
-    position: absolute;
-    bottom: -20px;
-    right: 50px;
-    max-width: 75px;
-
-    display: none;
-}
-
 /* ABOUT US */
+
 #about {
     max-width: 1000px;
     margin: 0 auto;
@@ -123,6 +108,22 @@ a {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.6em;
+}
+
+#about .windows-logo-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#about .windows-logo-left {
+    max-width: 75px;
+}
+
+#about .windows-logo-right {
+    max-width: 75px;
+
+    display: none;
 }
 
 /* FOOTER */
@@ -211,17 +212,12 @@ footer .navBtn a:hover {
 
 
 @media (min-width: 40em) {
-    #home .windows-logo-left {
+    #about .windows-logo-left {
         max-width: 125px;
-        left: 125px;
-        bottom: -50px;
     }
 
-    #home .windows-logo-right {
+    #about .windows-logo-right {
         max-width: 125px;
-        right: 125px;
-        bottom: -50px;
-
         display: block;
     }
 }
