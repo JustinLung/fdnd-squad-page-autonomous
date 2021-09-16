@@ -1,223 +1,267 @@
 @font-face {
-    font-family: 'VCR_OSD';
-    src: url('../assets/fonts/VCR\ OSD\ Mono.woff');
+  font-family: "VCR_OSD";
+  src: url("../assets/fonts/VCR\ OSD\ Mono.woff");
 }
 
 /* GLOBAL STYLING */
 
 * {
-    scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    /* background-color: #; */
-    color: #000;
-    font-family: "Times New Roman", Times, serif;
-    box-sizing: border-box;
+  /* background-color: #; */
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HOME */
 
 #home {
-    background-color: #13073d;
-    position: relative;
-    height: 100vh;
+  background-color: #13073d;
+  position: relative;
+  height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #home h1 {
-    color: #fff;
-    font-size: 1.3rem;
-    text-align: center;
-    margin: 1em auto;
-    font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 1em auto;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #home .logo {
-    margin-top: 3em;
-    min-width: 280px;
-    max-width: 70%;
-    max-height: 70%;
+  margin-top: 3em;
+  min-width: 280px;
+  max-width: 70%;
+  max-height: 70%;
 }
 
 #home .grid {
-    position: absolute;
-    background-image: url("../assets/vaporwave-grid.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("../assets/vaporwave-grid.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    z-index: 0;
-    bottom: 0;
-    width: 100%;
-    height: 200px;
+  z-index: 0;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
 }
 
 #home .navBtn {
-    background: transparent;
-    border: none;
+  background: transparent;
+  border: none;
 
-    color: #fff;
-    font-size: 1.5em;
-    text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
 
-    margin-top: 100px;
-    z-index: 1;
+  margin-top: 100px;
+  z-index: 1;
 }
 
 #home .navBtn a {
-    color: yellow !important;
-    font-family: 'VCR_OSD', sans-serif;
-
+  color: yellow !important;
+  font-family: "VCR_OSD", sans-serif;
 }
 
 #home .navBtn a {
-    color: #fff;
-    transition: 0.3s ease;
+  color: #fff;
+  transition: 0.3s ease;
 }
 
 #home .navBtn a:hover {
-    color: #af8aa0;
-    transform: scale(1.1);
+  color: #af8aa0;
+  transform: scale(1.1);
 }
 
 /* ABOUT US */
 
 #about {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2em;
 }
 
-#about h1 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 0.625em;
+#about h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.625em;
 }
 
 #about p {
-    text-align: center;
-    font-size: 1.2rem;
-    line-height: 1.6em;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6em;
 }
 
 #about .windows-logo-container {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
 #about .windows-logo-left {
-    max-width: 75px;
+  max-width: 75px;
 }
 
 #about .windows-logo-right {
-    max-width: 75px;
+  max-width: 75px;
 
-    display: none;
+  display: none;
+}
+
+/* SQUAD */
+
+#squad {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#squad .squad-container {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 300px;
+  grid-gap: 15px;
+  justify-items: center;
+  
+  margin-bottom: 2em;
+}
+
+#squad .squad {
+  height: 300px;
+  width: 300px;
+  background-color: #13073d;
+}
+
+#squad h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2em;
+  margin-top: 1em;
 }
 
 /* FOOTER */
 
 footer {
-    position: relative;
-    background-color: #282828;
+  position: relative;
+  background-color: #282828;
 
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer ul {
-    list-style: none;
-    margin: 2rem;
-    padding: 0;
+  list-style: none;
+  margin: 2rem;
+  padding: 0;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer ul li a {
-    color: #fff;
-    font-size: 1.7rem;
-    margin: 0.3rem;
+  color: #fff;
+  font-size: 1.7rem;
+  margin: 0.3rem;
 
-    transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 footer ul li a:hover {
-    color: #af8aa0;
-    transform: scale(1.1);
+  color: #af8aa0;
+  transform: scale(1.1);
 }
 
 footer .navBtn {
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    background: transparent;
-    border: none;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background: transparent;
+  border: none;
 
-    color: #fff;
-    font-size: 1em;
-    font-family: 'VCR_OSD', sans-serif;
+  color: #fff;
+  font-size: 1em;
+  font-family: "VCR_OSD", sans-serif;
 }
 
 footer .navBtn a {
-    color: yellow !important;
-    transition: 0.3s ease;
-    text-transform: uppercase;
+  color: yellow !important;
+  transition: 0.3s ease;
+  text-transform: uppercase;
 }
 
 footer .navBtn a:hover {
-    color: #af8aa0;
+  color: #af8aa0;
 }
 
 /* MEDIA QUERIES */
 
 @media (min-width: 32em) {
-    #home h1 {
-        margin: 1em auto;
-    }
+  #home h1 {
+    margin: 1em auto;
+  }
 
-    #home .logo {
-        max-width: 30%;
-    }
+  #home .logo {
+    max-width: 30%;
+  }
 
-    #home .grid {
-        background-position: top;
-    }
+  #home .grid {
+    background-position: top;
+  }
 }
 
 @media (min-width: 35em) {
-    #home h1 {
-        font-size: 2.4rem;
-    }
-
-    #home .navBtn {
-        right: 50px;
-        bottom: 50px;
-    }
+  #home h1 {
+    font-size: 2.4rem;
+  }
 }
 
+@media (min-width: 40em) {
+  #about .windows-logo-left {
+    max-width: 125px;
+  }
+
+  #about .windows-logo-right {
+    max-width: 125px;
+    display: block;
+  }
+}
 
 @media (min-width: 40em) {
-    #about .windows-logo-left {
-        max-width: 125px;
-    }
+  #squad .squad-container {
+    grid-template-columns: 300px 300px;
+  }
+}
 
-    #about .windows-logo-right {
-        max-width: 125px;
-        display: block;
-    }
+@media (min-width: 70em) {
+  #squad .squad-container {
+    grid-template-columns: 300px 300px 300px;
+  }
+}
+
+@media (min-width: 80em) {
+  #squad .squad-container {
+    grid-template-columns: 300px 300px 300px 300px;
+  }
 }
