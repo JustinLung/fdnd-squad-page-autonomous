@@ -16,12 +16,12 @@ export default [
     },
     {
         "name": "chaan",
-        "link": "",
+        "link": "https://chaanw.github.io/fdnd-visitekaartje-autonomous/",
         "foto": "./assets/students/chaan.JPG"
     },
     {
         "name": "Shauri",
-        "link": "",
+        "link": "https://daan.student.fdnd.nl/",
         "foto": "./assets/students/shauri.JPG"
     },
     {
