@@ -56,13 +56,22 @@ a {
   text-align: center;
   margin: 1em auto;
   font-family: "Times New Roman", Times, serif;
+
+  animation: intro-animation 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  pointer-events: none;
 }
 
+@keyframes intro-animation {
+  from{transform: scale(0)};
+  to{transform: scale(1)};
+}
 #home .logo {
   margin-top: 3em;
   min-width: 280px;
   max-width: 70%;
   max-height: 70%;
+
+  pointer-events: none;
 }
 
 #home .grid {
@@ -88,6 +97,28 @@ a {
 
   margin-top: 100px;
   z-index: 1;
+
+  transform: scale(1);
+  animation: pulse 2s infinite;
+  box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.7);
+  padding: 10px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(.95);
+    box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(251, 255, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 
 #home .navBtn a {
