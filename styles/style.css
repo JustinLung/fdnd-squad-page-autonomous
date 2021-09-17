@@ -25,13 +25,29 @@ a {
 /* HOME */
 
 #home {
-  background-color: #13073d;
+  background: linear-gradient(-45deg, #13073d, #2e0954, #050954);
+  background-size: 400% 400%;
+  animation: gradient-animation 5s ease infinite;
   position: relative;
   height: 100vh;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 #home h1 {
