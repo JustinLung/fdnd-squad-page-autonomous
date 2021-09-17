@@ -27,7 +27,7 @@ a {
 #home {
   background: linear-gradient(-45deg, #13073d, #2e0954, #050954);
   background-size: 400% 400%;
-  animation: gradient-animation 5s ease infinite;
+  animation: gradient-animation 6s ease infinite;
   position: relative;
   height: 100vh;
 
