@@ -161,21 +161,9 @@ a {
     margin-bottom: 2em;
 }
 
-#squad .student {
-    height: 300px;
-    width: 300px;
-    border-radius: 1em;
-    background-color: #13073d;
-    transition: .3s ease;
-}
-
-#squad .student:hover {
-    transform: scale(1.1);
-}
-
 #squad h3 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 2em;
     margin-top: 1em;
 }
@@ -188,6 +176,7 @@ a {
     background-color: #c0c0c0;
     padding: 0.25em;
     box-shadow: 0.1875em 0.1875em 0.3125em 0.0625em rgba(0, 0, 0, 0.75);
+    position: relative;
 }
 
 #window-bar {
@@ -254,7 +243,7 @@ a {
     max-height: 90%;
 }
 
-#window-content a {
+#window a {
     cursor: pointer;
     background: transparent;
     border: none;
@@ -272,7 +261,11 @@ a {
     text-decoration: none;
 }
 
-#window-content a {
+#window a {
+    position: absolute;
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     background: #C0C0C0;
     color: #000;
     font-family: "VCR_OSD", sans-serif;
@@ -354,6 +347,10 @@ footer .navBtn a:hover {
 @media (min-width: 35em) {
     #home h1 {
         font-size: 2.4rem;
+    }
+
+    #squad h3 {
+        font-size: 2rem;
     }
 }
 

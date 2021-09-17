@@ -2,7 +2,7 @@ import students from "./students.js"
 
 const studentContainer = document.querySelector(".squad-container")
 
-students.sort(function(a, b) {
+students.sort(function (a, b) {
     let textA = a.name.toUpperCase();
     let textB = b.name.toUpperCase();
     return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
@@ -24,8 +24,8 @@ for (let i = 0; i < students.length; i++) {
     </div>
     <div id="window-content">
         <img src="${students[i].foto}">
-        <a href="${students[i].link}">Visitekaart</a>
     </div>
+    <a href="${students[i].link}">Visitekaart</a>
 </div>
     `
 }
