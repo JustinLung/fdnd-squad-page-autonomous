@@ -62,9 +62,14 @@ a {
 }
 
 @keyframes intro-animation {
-  from{transform: scale(0)};
-  to{transform: scale(1)};
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
+
 #home .logo {
   margin-top: 3em;
   min-width: 280px;
@@ -106,7 +111,7 @@ a {
 
 @keyframes pulse {
   0% {
-    transform: scale(.95);
+    transform: scale(0.95);
     box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.7);
   }
 
