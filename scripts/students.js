@@ -31,7 +31,7 @@ export default [
     },
     {
         "name": "Beau",
-        "link": "",
+        "link": "beaupd.student.fdnd.nl/",
         "foto": "./assets/students/Beau.JPG"
     },
     {
@@ -46,7 +46,7 @@ export default [
     },
     {
         "name": "Daphne",
-        "link": "",
+        "link": "https://dphnzwp.github.io/fdnd-visitekaartje-autonomous/",
         "foto": "./assets/students/daphne.JPG"
     },
     {
