@@ -6,7 +6,7 @@ export default [
     },
     {
         "name": "Abdurabi",
-        "link": "abdurabi.student.fdnd.nl",
+        "link": "https://abdurabi.student.fdnd.nl",
         "foto": "./assets/students/abdurabi.JPG"
     },
     {
