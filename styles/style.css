@@ -178,6 +178,58 @@ a {
 }
 
 
+/* Windows animation */
+
+/* .windows-logo-container {
+  animation-name: example;
+  animation-duration: 15s;  
+
+} */
+
+.windows-logo-left {
+  animation-name: leftO;
+  animation-duration: 10s;
+  position: relative;
+  animation: leftO 5s infinite;
+  animation-iteration-count: 2;
+}
+
+.windows-logo-right {
+  animation-name: rightO;
+  animation-duration: 10s;
+  position: relative;
+  animation: rightO 5s eas;
+  animation-iteration-count: 2;
+  /* animation: reverse; */
+}
+
+
+
+@keyframes leftO {
+  0% {
+    transform: translateY(0);
+  }
+
+
+
+  100% {
+    transform: translateY(100%);
+  }
+
+
+
+}
+
+@keyframes rightO {
+  0% {
+    transform: translate(100%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+
 
 
 /* SQUAD */
