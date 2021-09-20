@@ -24,6 +24,7 @@ export default [
         "link": "http://shauri.student.fdnd.nl/",
         "foto": "./assets/students/shauri.JPG"
     },
+    
     {
         "name": "Armando",
         "link": "",
