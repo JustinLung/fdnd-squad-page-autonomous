@@ -113,7 +113,7 @@ a {
     padding: 2em;
 }
 
-#about h3 {
+#about h2{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 0.625em;
@@ -161,7 +161,7 @@ a {
     margin-bottom: 2em;
 }
 
-#squad h3 {
+#squad h2 {
     text-align: center;
     font-size: 1.7rem;
     margin-bottom: 2em;
@@ -349,7 +349,7 @@ footer .navBtn a:hover {
         font-size: 2.4rem;
     }
 
-    #squad h3 {
+    #squad h2{
         font-size: 2rem;
     }
 }
