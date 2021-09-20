@@ -6,7 +6,7 @@ export default [
     },
     {
         "name": "Abdurabi",
-        "link": "",
+        "link": "abdurabi.student.fdnd.nl",
         "foto": "./assets/students/abdurabi.JPG"
     },
     {
@@ -16,12 +16,12 @@ export default [
     },
     {
         "name": "chaan",
-        "link": "https://chaanw.github.io/fdnd-visitekaartje-autonomous/",
+        "link": "",
         "foto": "./assets/students/chaan.JPG"
     },
     {
         "name": "Shauri",
-        "link": "https://daan.student.fdnd.nl/",
+        "link": "",
         "foto": "./assets/students/shauri.JPG"
     },
     {
@@ -31,7 +31,7 @@ export default [
     },
     {
         "name": "Beau",
-        "link": "",
+        "link": "beaupd.student.fdnd.nl/",
         "foto": "./assets/students/Beau.JPG"
     },
     {
@@ -46,7 +46,7 @@ export default [
     },
     {
         "name": "Daphne",
-        "link": "",
+        "link": "https://dphnzwp.github.io/fdnd-visitekaartje-autonomous/",
         "foto": "./assets/students/daphne.JPG"
     },
     {

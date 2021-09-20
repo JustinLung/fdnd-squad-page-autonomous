@@ -25,7 +25,7 @@ for (let i = 0; i < students.length; i++) {
     <div id="window-content">
         <img src="${students[i].foto}">
     </div>
-    <a href="${students[i].link}"  target="_blank">Visitekaart</a>
+    <a href="${students[i].link}">Visitekaart</a>
 </div>
     `
 }
