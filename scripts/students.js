@@ -31,7 +31,7 @@ export default [
     },
     {
         "name": "Beau",
-        "link": "beaupd.student.fdnd.nl/",
+        "link": "https://beaupd.student.fdnd.nl/",
         "foto": "./assets/students/Beau.JPG"
     },
     {
