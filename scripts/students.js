@@ -21,7 +21,7 @@ export default [
     },
     {
         "name": "Shauri",
-        "link": "",
+        "link": "shauri.student.fdnd.nl",
         "foto": "./assets/students/shauri.JPG"
     },
     {
