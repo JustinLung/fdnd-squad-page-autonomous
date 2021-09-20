@@ -15,14 +15,62 @@
 <body>
     <main>
         <section id="home">
+            <div class="overlay"></div>
+            <div class="background-80s animated-clouds stars" style="--background-height:100vh"></div>
             <img src="assets/fdnd-vaporwave-logo.svg" alt="logo" class="logo" />
-            <h1>f r o n t - e n d &nbsp; d e v e l o p e r s</h1>
-            <div class="grid"></div>
+            <h1>w e l c o m e &nbsp; t o &nbsp; o u r &nbsp; s q u a d p a g e</h1>
+            <div class="grid" style="--grid-color:rgba(255, 255, 255, 0.5);--grid-size:30px;--grid-blur:1px;"></div>
             <button class="navBtn"><a href="#about">Scroll Down</a></button>
+            <svg width="0" height="0">
+                <filter id="filter">
+                <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="10" id="fractalNoise"/>
+                <feDisplacementMap id="displacementMap" in="SourceGraphic" scale="120" />
+                </filter>
+                <animate
+                  xlink:href="#displacementMap"
+                  id="animclouds1"
+                  begin="0; animclouds2.end"
+                  attributeName="scale"
+                  from="50"
+                  to="180"
+                  dur="3s"
+                  fill="freeze"
+                  />
+                  <animate
+                    xlink:href="#displacementMap"
+                    id="animclouds2"
+                    begin="animclouds1.end"
+                    attributeName="scale"
+                    from="180"
+                    to="50"
+                    dur="3s"
+                    fill="freeze"
+                    />
+                    <animate
+                      xlink:href="#fractalNoise"
+                      id="animclouds3"
+                      begin="0;animclouds4.end"
+                      attributeName="baseFrequency"
+                      from="0.03"
+                      to="0.01"
+                      dur="30s"
+                      fill="freeze"
+                      />
+                      <animate
+                        xlink:href="#fractalNoise"
+                        id="animclouds4"
+                        begin="animclouds3.end"
+                        attributeName="baseFrequency"
+                        from="0.01"
+                        to="0.03"
+                        dur="30s"
+                        fill="freeze"
+                        />
+                      </svg>
         </section>
 
         <section id="about">
-            <h3>[ A b o u t &nbsp; U s ]</h3>
+            <h3>[ a b o u t &nbsp; u s ]</h3>
             <p>
                 Bij de Ad Frontend Design & Development doe je alles met code: met
                 code los je een parkeerprobleem op voor de Gemeente Amsterdam, ontwerp
@@ -43,7 +91,7 @@
         </section>
 
         <section id="squad">
-            <h3>[ M e e t &nbsp;T h e &nbsp; S q u a d ]</h3>
+            <h3>[ m e e t &nbsp;t h e &nbsp; s q u a d ]</h3>
             <div class="squad-container"></div>
         </section>
     </main>
