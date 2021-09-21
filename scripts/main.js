@@ -11,22 +11,22 @@ students.sort(function (a, b) {
 
 for (let i = 0; i < students.length; i++) {
     studentContainer.innerHTML += `
-    <div id="window">
-    <div id="window-bar">
+    <article id="window">
+    <section id="window-bar">
         <p id="window-title">
             ${students[i].name} - FDND
         </p>
-        <div id="window-buttons">
-            <p id="exit">&#128473;</p>
-            <p id="max">&#128470;</p>
-            <p id="min">&#128469;</p>
-        </div>
-    </div>
-    <div id="window-content">
+        <section id="window-buttons">
+            <button id="exit">&#128473;</button>
+            <button id="max">&#128470;</button>
+            <button id="min">&#128469;</button>
+        </section>
+    </section>
+    <section id="window-content">
         <img src="${students[i].foto}">
-    </div>
-    <a href="${students[i].link}"  target="_blank">Visitekaart</a>
-</div>
+    </section>
+    <a href="${students[i].link}">Visitekaart</a>
+</article>
     `
 }
 

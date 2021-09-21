@@ -16,18 +16,19 @@ body {
   color: #000;
   font-family: "Times New Roman", Times, serif;
   box-sizing: border-box;
+  cursor: url(https://i.imgur.com/YZaNlY0.png), default;
 }
 
 a {
   text-decoration: none;
+  cursor: url(https://i.imgur.com/79TTBjm.png), default;
 }
 
 /* HOME */
 
 #home {
-  background: linear-gradient(-45deg, #13073d, #2e0954, #050954);
-  background-size: 400% 400%;
-  animation: gradient-animation 6s ease infinite;
+  background: linear-gradient(to bottom, #010310 0, #0c1142 20%, #45125e 45%, #d53567 59%, #f0c3d9 50%, #0c1142 60%);
+  background-size: 100% var(--background-height, 100vh);
   position: relative;
   height: 100vh;
 
@@ -36,28 +37,14 @@ a {
   align-items: center;
 }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 #home h1 {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: .9rem;
   text-align: center;
   margin: 1em auto;
-  font-family: "Times New Roman", Times, serif;
-
-  animation: intro-animation 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  animation: intro-animation 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   pointer-events: none;
 }
 
@@ -65,6 +52,7 @@ a {
   from {
     transform: scale(0);
   }
+
   to {
     transform: scale(1);
   }
@@ -75,21 +63,104 @@ a {
   min-width: 280px;
   max-width: 70%;
   max-height: 70%;
+}
 
+.overlay {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: repeating-linear-gradient(rgba(0, 0, 0, 0.3) 0, transparent 1px, transparent 2px, rgba(0, 0, 0, 0.3) 3px);
   pointer-events: none;
+}
+
+/*stars*/
+#home .stars:after {
+  transform: translateY(-40%);
+  content: ' ';
+  border-radius: 100%;
+  width: 3px;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow:
+    5vw 20vh 2px white,
+    1vw 33vh 0px white,
+    2vw 25vh 2px white,
+    10vw 10vh 2px white,
+    12vw 20vh 0px white,
+    30vw 15vh 2px white,
+    16vw 5vh 2px white,
+    24vw 10vh 0px white,
+    32vw 40vh 0px white,
+    33vw 35vh 2px white,
+    12vw 38vh 2px white,
+    24vw 10vh 0px white,
+    33vw 5vh 2px white,
+    20vw 10vh 0px white,
+    80vw 10vh 2px white,
+    62vw 20vh 0px white,
+    60vw 15vh 2px white,
+    70vw 7vh 0px white,
+    62vw 50vh 0px white,
+    65vw 35vh 2px white,
+    64vw 10vh 0px white,
+    85vw 2vh 0px white,
+    92vw 40vh 0px white,
+    75vw 35vh 2px white,
+    90vw 10vh 0px white;
+  opacity: 0.3;
+  animation: glitter 2s infinite;
+}
+
+@keyframes glitter {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+#home .grid-container {
+  /* background: red; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height:  350px;
+  overflow: hidden;
 }
 
 #home .grid {
   position: absolute;
-  background-image: url("../assets/vaporwave-grid.svg");
+  bottom: 0;
+  height: 135%;
+  width: 100%;
+  /* left: 50%; */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-image:
+    repeating-linear-gradient(90deg, var(--grid-color, black) 0%, transparent calc(1px + var(--grid-blur, 0px)), transparent var(--grid-size), var(--grid-color, black) calc(var(--grid-size) + 1px + var(--grid-blur, 0px))), repeating-linear-gradient(180deg, var(--grid-color, black) 0%, transparent calc(1px + var(--grid-blur, 0px)), transparent var(--grid-size), var(--grid-color, black) calc(var(--grid-size) + 1px + var(--grid-blur, 0px)));
+  transform: perspective(50vh) rotateX(60deg) translateZ(10px) scaleX(1.5);
+  animation: moving-grid .25s infinite linear;
+}
 
-  z-index: 0;
-  bottom: 0;
-  width: 100%;
-  height: 200px;
+@keyframes moving-grid {
+  0% {
+    transform: perspective(50vh) rotateX(60deg) translateZ(10px) scaleX(1.5);
+  }
+
+  100% {
+    transform: perspective(50vh) rotateX(60deg) translateZ(10px) translateY(var(--grid-size)) scaleX(1.5);
+  }
 }
 
 #home .navBtn {
@@ -102,28 +173,6 @@ a {
 
   margin-top: 100px;
   z-index: 1;
-
-  transform: scale(1);
-  animation: pulse 2s infinite;
-  box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.7);
-  padding: 10px;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(251, 255, 0, 0.7);
-  }
-
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(251, 255, 0, 0);
-  }
-
-  100% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
 }
 
 #home .navBtn a {
@@ -149,7 +198,7 @@ a {
   padding: 2em;
 }
 
-#about h3 {
+#about h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 0.625em;
@@ -177,8 +226,43 @@ a {
   display: none;
 }
 
+/* Windows animation */
 
+.windows-logo-left {
+  animation: windowsAnimationLeft 5s infinite;
+}
 
+.windows-logo-right {
+  animation: windowsAnimationRight 5s infinite;
+}
+
+@keyframes windowsAnimationLeft {
+  0% {
+    transform: translate(-100%);
+  }
+
+  50% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+@keyframes windowsAnimationRight {
+  0% {
+    transform: translate(100%);
+  }
+
+  50% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(100%);
+  }
+}
 
 /* SQUAD */
 
@@ -200,7 +284,7 @@ a {
   margin-bottom: 2em;
 }
 
-#squad h3 {
+#squad h2 {
   text-align: center;
   font-size: 1.7rem;
   margin-bottom: 2em;
@@ -229,10 +313,6 @@ a {
   color: #fff;
   float: left;
   padding: 5px;
-}
-
-#window #window-buttons p {
-  pointer-events: none;
 }
 
 #exit {
@@ -309,16 +389,9 @@ a {
   margin-top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: #c0c0c0;
+  background: #C0C0C0;
   color: #000;
   font-family: "VCR_OSD", sans-serif;
-
-  transition: 0.3s ease;
-}
-
-#window a:hover {
-  transform: scale(1.1) translateX(-50%);
-  transform-origin: left;
 }
 
 /* FOOTER */
@@ -358,8 +431,8 @@ footer ul li a:hover {
 
 footer .navBtn {
   position: absolute;
-  right: 20px;
-  bottom: 20px;
+  right: 30px;
+  bottom: 30px;
   background: transparent;
   border: none;
 
@@ -388,28 +461,25 @@ footer .navBtn a:hover {
   #home .logo {
     max-width: 30%;
   }
-
-  #home .grid {
-    background-position: top;
-  }
-
-  footer .navBtn {
-    right: 30px;
-    bottom: 30px;
-  }
 }
 
 @media (min-width: 35em) {
-  #home h1 {
-    font-size: 2.4rem;
-  }
 
-  #squad h3 {
+  #squad h2 {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 40em) {
+
+  #home h1 {
+    font-size: 1.9rem;
+  }
+
+  #squad .squad-container {
+    grid-template-columns: 300px 300px;
+  }
+
   #about .windows-logo-left {
     max-width: 125px;
   }
@@ -420,19 +490,18 @@ footer .navBtn a:hover {
   }
 }
 
-@media (min-width: 45em) {
-  #squad .squad-container {
-    grid-template-columns: 300px 300px;
-  }
-}
-
 @media (min-width: 70em) {
   #squad .squad-container {
     grid-template-columns: 300px 300px 300px;
   }
 }
 
-@media (min-width: 90em) {
+@media (min-width: 80em) {
+
+  #home h1 {
+    font-size: 2rem;
+  }
+
   #squad .squad-container {
     grid-template-columns: 300px 300px 300px 300px;
   }
