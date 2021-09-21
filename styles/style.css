@@ -180,7 +180,7 @@ a {
 /* Windows animation */
 
 .windows-logo-left {
-  animation: windowsAnimationLeft 5s infinite reverse;
+  animation: windowsAnimationLeft 5s infinite;
 }
 
 .windows-logo-right {
