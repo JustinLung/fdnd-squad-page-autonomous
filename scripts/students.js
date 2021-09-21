@@ -16,7 +16,7 @@ export default [
     },
     {
         "name": "chaan",
-        "link": "",
+        "link": "https://chaanw.github.io/fdnd-visitekaartje-autonomous/",
         "foto": "./assets/students/chaan.JPG"
     },
     {
