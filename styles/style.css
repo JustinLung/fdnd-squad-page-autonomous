@@ -141,6 +141,44 @@ a {
     display: none;
 }
 
+/* Windows animation */
+
+.windows-logo-left {
+  animation: windowsAnimationLeft 5s infinite;
+}
+
+.windows-logo-right {
+  animation: windowsAnimationRight 5s infinite;
+}
+
+@keyframes windowsAnimationLeft {
+  0% {
+    transform: translate(-100%);
+  }
+
+  50% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+@keyframes windowsAnimationRight {
+  0% {
+    transform: translate(100%);
+  }
+
+  50% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(100%);
+  }
+}
+
 /* SQUAD */
 
 #squad {
