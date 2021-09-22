@@ -16,6 +16,7 @@ The Vaporwave website is made with HTML, CSS & JS (also in JSON).
 In this website we will show all the students in Front-end Development & Design.
 
 The team consists of 5 developers/designers:
+
 - Chaan Soekana
 - Shauri Maigua
 - Abdurabi Abukar
@@ -37,8 +38,9 @@ The team consists of 5 developers/designers:
 As a team, we discussed which theme we should choose for our project.
 In this process we decided to go with the Vaporwave theme.
 
-For our first sprint, we had 2 weeks to integrate the developer life cycle. 
+For our first sprint, we had 2 weeks to integrate the developer life cycle.
 This life cycle consists of:
+
 - Analyse
 - Design
 - Build
@@ -67,6 +69,52 @@ This sketch was made by Chaan. This sketch was made of the content of the websit
 We came to a conclusion, to make a vaporwave themed website where we present our website. We will make this in HTML, CSS & JS
 
 ![vaporwave-final-sketch](https://media.discordapp.net/attachments/437951219705577472/890169012892344340/Screenshot_2021-09-22_at_11.33.45.png?width=784&height=1139)
+
+## Build
+
+First we made our HTML file. This file contains our sections for our website.
+
+```
+   <main>
+        <section id="home">
+            <div class="overlay"></div>
+            <div class="stars"></div>
+            <div class="background-80s animated-clouds stars" style="--background-height:100vh"></div>
+            <img src="assets/fdnd-vaporwave-logo.svg" alt="logo" class="logo" />
+            <h1>【 w e l c o m e &nbsp; t o &nbsp; o u r &nbsp; s q u a d p a g e 】</h1>
+            <div class="grid-container">
+                <div class="grid" style="--grid-color:rgba(255, 255, 255, 0.5);--grid-size:30px;--grid-blur:1px;"></div>
+            </div>
+            <button class="navBtn"><a href="#about">Scroll Down</a></button>
+        </section>
+
+        <section id="about">
+            <h2>[ a b o u t &nbsp; u s ]</h2>
+            <p>
+                Bij de Ad Frontend Design & Development doe je alles met code: met
+                code los je een parkeerprobleem op voor de Gemeente Amsterdam, ontwerp
+                je voor het systeem van de Openbare Bibliotheek een betere
+                zoekfunctie, en help je samen met de verpleegkundigen van het
+                Amsterdam UMC de zorg te verbeteren. Je richt je tijdens deze
+                tweejarige studie op webdesign, visual interface design en frontend
+                development. Vanaf het begin van de opleiding werk je aan actuele
+                opdrachten van échte opdrachtgevers, en leer je samenwerken in
+                multidisciplinaire teams.
+            </p>
+
+            <div class="windows-logo-container">
+                <img src="assets/windows95-vaporwave-icoon.svg" alt="windows-logo" class="windows-logo-left">
+                <img src="assets/windows95-vaporwave-icoon-mirrored.svg" alt="windows-logo-mirrored"
+                    class="windows-logo-right">
+            </div>
+        </section>
+
+        <section id="squad">
+            <h2>[ m e e t &nbsp; t h e &nbsp; s q u a d ]</h2>
+            <div class="squad-container"></div>
+        </section>
+    </main>
+```
 
 ## Integrate
 
