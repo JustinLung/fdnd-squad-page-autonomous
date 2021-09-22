@@ -9,7 +9,7 @@
 
 ## Inhoudsopgave
 
-- [Vaporwave Squad Page](# Vaporwave Squad Page)
+- [Vaporwave Squad Page](#Vaporwave Squad Page)
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
