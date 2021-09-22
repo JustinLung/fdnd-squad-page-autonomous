@@ -300,6 +300,9 @@ a {
   padding: 0.25em;
   box-shadow: 0.1875em 0.1875em 0.3125em 0.0625em rgba(0, 0, 0, 0.75);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 #window-bar {
@@ -313,6 +316,14 @@ a {
   color: #fff;
   float: left;
   padding: 5px;
+}
+
+.window-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: .5em;
 }
 
 #exit {
@@ -601,8 +612,8 @@ a {
 
 
 #window-content img {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
   z-index: -2;
 }
 
@@ -629,10 +640,7 @@ a {
 }
 
 #window a {
-  position: absolute;
-  margin-top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+
   background: #C0C0C0;
   color: #000;
   font-family: "VCR_OSD", sans-serif;
