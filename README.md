@@ -1,6 +1,6 @@
 > Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Vaporwave Squad Page
+# Vaporwave
 
 ## Beschrijving
 <!-- Voeg een link toe naar Github Pages 🌐-->
@@ -9,7 +9,7 @@
 
 ## Inhoudsopgave
 
-- [Vaporwave Squad Page](#Vaporwave Squad Page)
+- [Vaporwave](#vaporwave)
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
