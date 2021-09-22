@@ -6,7 +6,7 @@
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-https://vaporwave.student.fdnd.nl/
+https://vaporwave.fdnd.nl/
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 
@@ -162,7 +162,7 @@ Not only did we learn about HTML, CSS & JS, but we also learned to communicate w
 The rest of the code will be in our repository!
 
 ## Integrate
-Every part we build for our website, we integrated it to Github. You can think of every change we made feature branches, committed our changes to the branche and pushed our commits to the branch. After the commits, we will merge it in the main branche. After that we hosted our website through Github pages. The link is https://vaporwave.student.fdnd.nl/
+Every part we build for our website, we integrated it to Github. You can think of every change we made feature branches, committed our changes to the branche and pushed our commits to the branch. After the commits, we will merge it in the main branche. After that we hosted our website through Github pages. The link is https://vaporwave.fdnd.nl/
 
 ## Test
 For the tests, we did some research on:
