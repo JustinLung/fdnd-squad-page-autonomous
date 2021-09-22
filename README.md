@@ -10,7 +10,6 @@ https://vaporwave.student.fdnd.nl/
 ![team-vaporwave](https://media.discordapp.net/attachments/437951219705577472/890164713768517632/MicrosoftTeams-image.png)
 
 ## Inhoudsopgave
-
 - [Vaporwave](#vaporwave)
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
@@ -20,6 +19,16 @@ https://vaporwave.student.fdnd.nl/
   * [Licentie](#licentie)
 
 ## Kenmerken
+Tools gebruikt tijdens het maken van de website:
+- Visual Studio Code
+- Adobe Illustrator
+- Photoshop
+
+Code Skills:
+- HTML5
+- CSS3
+- Javascript
+- JSON
 
 ## Installatie
 Installeren met HTTPS
@@ -35,6 +44,7 @@ cd fdnd-squad-page-autonomous
 Vervolgens na het clonen, openen met live server.
 
 ## Gebruik
+n.v.t
 
 ## Bronnen
 ### fonts 
@@ -46,6 +56,9 @@ Vervolgens na het clonen, openen met live server.
 
 ### custom cursor
 - https://i.imgur.com/YZaNlY0.png
+
+### Windows logo
+- https://commons.wikimedia.org/wiki/File:Windows_Logo_(1992-2001).svg
 
 ## Licentie
 
