@@ -32,7 +32,7 @@ a {
 /* HOME */
 
 #home {
-  background: linear-gradient(to bottom, #010310 0, #0c1142 20%, #45125e 45%, #d53567 57%, #f0c3d9 60%);
+  background: linear-gradient(to bottom, #010310 0, #0c1142 20%, #45125e 45%, #d53567 57%, #f0c3d9 61%);
   background-size: 100% var(--background-height, 100vh);
   position: relative;
   height: 100vh;
@@ -124,7 +124,7 @@ a {
 
 @keyframes glitter {
   0% {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 
   50% {
@@ -132,7 +132,7 @@ a {
   }
 
   100% {
-    opacity: 0.5;
+    opacity: 0.3;
   }
 }
 
