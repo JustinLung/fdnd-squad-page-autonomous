@@ -21,8 +21,11 @@ In this website we will show all the students in Front-end Development & Design.
   * [Liscence](#liscence)
 
 ## Analyse
+As a team, we discussed which theme we should choose for our project. 
+In this process we decided to go with the Vaporwave theme.
 
 ## Design
+As a team we made a few desgins. Eacht teammember made a sketch of the website. 
 
 ## Integrate
 
