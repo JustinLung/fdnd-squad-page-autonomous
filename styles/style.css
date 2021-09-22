@@ -3,6 +3,11 @@
   src: url("../assets/fonts/VCR\ OSD\ Mono.woff");
 }
 
+@font-face {
+  font-family: 'w95fa';
+  src: url('../assets/fonts/w95fa.woff2');
+}
+
 /* GLOBAL STYLING */
 
 * {
@@ -306,6 +311,7 @@ a {
 }
 
 #window-bar {
+  font-family: 'w95fa';
   background-color: #008;
   margin-bottom: 0.25em;
   white-space: nowrap;
