@@ -15,6 +15,13 @@ https://vaporwave.student.fdnd.nl/
 The Vaporwave website is made with HTML, CSS & JS (also in JSON).
 In this website we will show all the students in Front-end Development & Design.
 
+The team consists of 5 developers/designers:
+- Chaan Soekana
+- Shauri Maigua
+- Abdurabi Abukar
+- Nandita Badeloe
+- Justin Lung
+
 ## Table of contents
 
 - [Description](#description)
