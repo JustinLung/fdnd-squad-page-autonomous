@@ -11,12 +11,12 @@ export default [
     },
     {
         "name": "Nandita",
-        "link": "",
+        "link": "https://nandita.student.fdnd.nl/",
         "foto": "./assets/students/nandita.JPG"
     },
     {
         "name": "chaan",
-        "link": "https://chaanw.github.io/fdnd-visitekaartje-autonomous/",
+        "link": "https://chaan.student.fdnd.nl/",
         "foto": "./assets/students/chaan.JPG"
     },
     {
@@ -27,7 +27,7 @@ export default [
     
     {
         "name": "Armando",
-        "link": "",
+        "link": "https://armando.student.fdnd.nl/",
         "foto": "./assets/students/armando.JPG"
     },
     {
@@ -37,7 +37,7 @@ export default [
     },
     {
         "name": "Boudewijn",
-        "link": "",
+        "link": "https://boudewijn.student.fdnd.nl/",
         "foto": "./assets/students/boudewijn.JPG"
     },
     {
@@ -47,32 +47,32 @@ export default [
     },
     {
         "name": "Daphne",
-        "link": "https://dphnzwp.github.io/fdnd-visitekaartje-autonomous/",
+        "link": "https://daphne.student.fdnd.nl/",
         "foto": "./assets/students/daphne.JPG"
     },
     {
         "name": "Emona",
-        "link": "",
+        "link": "https://emona.student.fdnd.nl/",
         "foto": "./assets/students/emona.JPG"
     },
     {
         "name": "Finn",
-        "link": "",
+        "link": "https://finn.student.fdnd.nl/",
         "foto": "./assets/students/finn.JPG"
     },
     {
         "name": "Jean",
-        "link": "",
+        "link": "https://jean.student.fdnd.nl/",
         "foto": "./assets/students/jean.JPG"
     },
     {
         "name": "Matthijs",
-        "link": "",
+        "link": "https://matthijs.student.fdnd.nl/",
         "foto": "./assets/students/matthijs.JPG"
     },
     {
         "name": "Yasser",
-        "link": "",
+        "link": "https://yasser.student.fdnd.nl/",
         "foto": "./assets/students/yasser.JPG"
     }
     
