@@ -49,7 +49,7 @@ This life cycle consists of:
 
 ## Design
 
-As a team we made a few desgins. Each team member made a sketch of the website.
+As a team we made a few desgins. Each team member made a sketch of the website with pen & paper.
 
 This sketch was made by Justin. This was a design for the smaller screens like mobile, tablet or laptop.
 ![vaporwave-sketch-justin](https://media.discordapp.net/attachments/437951219705577472/890170354004295690/Screenshot_2021-09-22_at_11.39.06.png)
@@ -72,7 +72,9 @@ We came to a conclusion, to make a vaporwave themed website where we present our
 
 ## Build
 
-First we made our HTML file. This file contains our sections for our website.
+We made a Github repository and made issues for the enhancement of the website. We assigned every issue to a team member.
+
+First we made our HTML file. This file contains our sections for our website. We made our HTML semantic. We used elements to make the document more clear.
 
 ```
    <main>
@@ -116,9 +118,67 @@ First we made our HTML file. This file contains our sections for our website.
     </main>
 ```
 
+Next we made the css of the website. We used different classes & id's to make this possible.
+
+The home section was made in css animations. The grid moves in keyframe animations.
+
+```
+#home {
+  background: linear-gradient(to bottom, #010310 0, #0c1142 20%, #45125e 45%, #d53567 59%, #f0c3d9 50%, #0c1142 60%);
+  background-size: 100% var(--background-height, 100vh);
+  position: relative;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home h1 {
+  color: #fff;
+  font-size: .9rem;
+  text-align: center;
+  margin: 1em auto;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  animation: intro-animation 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  pointer-events: none;
+}
+```
+
+Next we created our own JSON object where we save all the students from FDND. This will be imported in the main.js file to itterate and display the students in an alphabetical order.
+
+```
+export default [
+    {
+        "name": "Justin",
+        "link": "https://justin.student.fdnd.nl/",
+        "foto": "./assets/students/justin.JPG"
+    },
+```
+
+
+Not only did we learn about HTML, CSS & JS, but we also learned to communicate with each other and make a better team. 
+The rest of the code will be in our repository!
+
 ## Integrate
+Every part we build for our website, we integrated it to Github. You can think of every change we made feature branches, committed our changes to the branche and pushed our commits to the branch. After the commits, we will merge it in the main branche. After that we hosted our website through Github pages. The link is https://vaporwave.student.fdnd.nl/
 
 ## Test
+For the tests, we did some research on:
+
+- Responsiveness
+- Load times
+- Different browsers/devices
+- Usability 
+- Icons loading
+
+We documented this while another user is using our website.
+![test-documentation](https://media.discordapp.net/attachments/871761581590052925/890177001376329738/Screenshot_2021-09-22_at_12.05.26.png?width=876&height=1137)
+
+Overall, there were some issues and bugs that needed to be fixed. The major bugs are fixed (those were the responsiveness bugs & images not loading correctly on the site).
+
+Other features or enhancements will be released on a later date.
 
 ## Liscence
 
