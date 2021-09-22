@@ -37,11 +37,34 @@ The team consists of 5 developers/designers:
 As a team, we discussed which theme we should choose for our project.
 In this process we decided to go with the Vaporwave theme.
 
+For our first sprint, we had 2 weeks to integrate the developer life cycle. 
+This life cycle consists of:
+- Analyse
+- Design
+- Build
+- Integrate
+- Test
+
 ## Design
 
 As a team we made a few desgins. Each team member made a sketch of the website.
 
-As a conclucion, we made a final sketch that we can build with HTML, CSS & JS
+This sketch was made by Justin. This was a design for the smaller screens like mobile, tablet or laptop.
+![vaporwave-sketch-justin](https://media.discordapp.net/attachments/437951219705577472/890170354004295690/Screenshot_2021-09-22_at_11.39.06.png)
+
+This sketch was made by Abdurabi. This was one of the first sketches to showcase our project, but this was a part of the development life cycle.
+
+![vaporwave-sketch-abdurabi](https://media.discordapp.net/attachments/437951219705577472/890170750856757328/Screenshot_2021-09-22_at_11.40.20.png)
+
+This sketch was made by Shauri. This was one of the first sketches to showcase our project, but this was a part of the development life cycle.
+
+![vaporwave-sketch-shauri](https://media.discordapp.net/attachments/871761581590052925/890171458989477918/Screenshot_2021-09-22_at_11.43.25.png)
+
+This sketch was made by Chaan. This sketch was made of the content of the website.
+
+![vaporwave-sketch-chaan](https://media.discordapp.net/attachments/871761581590052925/890171925295398932/Screenshot_2021-09-22_at_11.45.20.png?width=790&height=1138)
+
+We came to a conclusion, to make a vaporwave themed website where we present our website. We will make this in HTML, CSS & JS
 
 ![vaporwave-final-sketch](https://media.discordapp.net/attachments/437951219705577472/890169012892344340/Screenshot_2021-09-22_at_11.33.45.png?width=784&height=1139)
 
