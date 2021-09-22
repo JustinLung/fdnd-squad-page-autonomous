@@ -32,7 +32,7 @@ a {
 /* HOME */
 
 #home {
-  background: linear-gradient(to bottom, #010310 0, #0c1142 20%, #45125e 45%, #d53567 57%, #f0c3d9 61%);
+  background: linear-gradient(to bottom, #010310 0, #0c1142 20%, #45125e 45%, #d53567 57%);
   background-size: 100% var(--background-height, 100vh);
   position: relative;
   height: 100vh;
@@ -137,7 +137,7 @@ a {
 }
 
 #home .grid-container {
-  background: #0c1142;
+  background: linear-gradient(to bottom, #dbdce9 0%, #545a94 3%, #313875 5%, #0c1142 10%);
   position: absolute;
   bottom: 0;
   width: 100%;
