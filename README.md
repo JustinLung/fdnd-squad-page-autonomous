@@ -6,31 +6,29 @@
 <!-- Voeg een link toe naar Github Pages 🌐-->
 https://vaporwave.student.fdnd.nl/
 <!-- Voeg een mooie poster visual toe 📸 -->
-![image](fdnd-vaporwave-logo.svg)
+![team-vaporwave](https://media.discordapp.net/attachments/437951219705577472/890164713768517632/MicrosoftTeams-image.png)
 
 The Vaporwave website is made with HTML, CSS & JS. 
 In this website we will show all the students in Front-end Development & Design.
 
-
 ## Table of contents
+  * [Description](#description)
+  * [Analyse](#analyse)
+  * [Design](#design)
+  * [Build](#build)
+  * [Integrate](#integrate)
+  * [Test](#test)
+  * [Liscence](#liscence)
 
-- [Titel](#titel)
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+## Analyse
 
-## Kenmerken
+## Design
 
-## Installatie
+## Integrate
 
-## Gebruik
+## Test
 
-## Bronnen
-
-## Licentie
+## Liscence
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
