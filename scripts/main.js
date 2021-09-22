@@ -23,7 +23,9 @@ for (let i = 0; i < students.length; i++) {
         </section>
     </section>
     <section id="window-content">
+    <div class="glitch">
         <img src="${students[i].foto}">
+        </div>
     </section>
     <a href="${students[i].link}">Visitekaart</a>
 </article>
