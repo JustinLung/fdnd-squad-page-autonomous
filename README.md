@@ -4,8 +4,10 @@
 
 ## Beschrijving
 <!-- Voeg een link toe naar Github Pages 🌐-->
+https://vaporwave.student.fdnd.nl/
 
 <!-- Voeg een mooie poster visual toe 📸 -->
+![team-vaporwave](https://media.discordapp.net/attachments/437951219705577472/890164713768517632/MicrosoftTeams-image.png)
 
 ## Inhoudsopgave
 
@@ -35,6 +37,15 @@ Vervolgens na het clonen, openen met live server.
 ## Gebruik
 
 ## Bronnen
+### fonts 
+- https://www.dafont.com/vcr-osd-mono.font
+- https://fontsarena.com/w95fa-by-fontsarena/
+
+### grid rolling animation
+- https://codepen.io/
+
+### custom cursor
+- https://i.imgur.com/YZaNlY0.png
 
 ## Licentie
 
