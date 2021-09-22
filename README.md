@@ -1,12 +1,18 @@
 > Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# Vaporwave Squad Page
 
-## Beschrijving
+## Description
 <!-- Voeg een link toe naar Github Pages 🌐-->
+https://vaporwave.student.fdnd.nl/
 <!-- Voeg een mooie poster visual toe 📸 -->
+![image](fdnd-vaporwave-logo.svg)
 
-## Inhoudsopgave
+The Vaporwave website is made with HTML, CSS & JS. 
+In this website we will show all the students in Front-end Development & Design.
+
+
+## Table of contents
 
 - [Titel](#titel)
   * [Beschrijving](#beschrijving)
