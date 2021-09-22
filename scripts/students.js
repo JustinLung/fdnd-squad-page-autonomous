@@ -15,7 +15,7 @@ export default [
         "foto": "./assets/students/nandita.JPG"
     },
     {
-        "name": "chaan",
+        "name": "Chaan",
         "link": "https://chaan.student.fdnd.nl/",
         "foto": "./assets/students/chaan.JPG"
     },

@@ -470,7 +470,7 @@ footer .navBtn a:hover {
   }
 }
 
-@media (min-width: 40em) {
+@media (min-width: 41em) {
 
   #home h1 {
     font-size: 1.9rem;
@@ -496,7 +496,7 @@ footer .navBtn a:hover {
   }
 }
 
-@media (min-width: 80em) {
+@media (min-width: 90em) {
 
   #home h1 {
     font-size: 2rem;
