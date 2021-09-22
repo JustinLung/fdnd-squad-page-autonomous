@@ -135,7 +135,7 @@ a {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height:  350px;
+  height:  45vh;
   overflow: hidden;
 }
 
@@ -668,7 +668,7 @@ footer .navBtn a:hover {
   }
 }
 
-@media (min-width: 40em) {
+@media (min-width: 41em) {
 
   #home h1 {
     font-size: 1.9rem;
@@ -694,7 +694,7 @@ footer .navBtn a:hover {
   }
 }
 
-@media (min-width: 80em) {
+@media (min-width: 90em) {
 
   #home h1 {
     font-size: 2rem;
