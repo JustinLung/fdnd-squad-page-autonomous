@@ -21,18 +21,18 @@ body {
   color: #000;
   font-family: "Times New Roman", Times, serif;
   box-sizing: border-box;
-  cursor: url(https://i.imgur.com/YZaNlY0.png), default;
+  cursor: url(../assets/Mouse-cursor.png), default;
 }
 
 a {
   text-decoration: none;
-  cursor: url(https://i.imgur.com/79TTBjm.png), default;
+  cursor: url(../assets/Mouse-pointer.png), default;
 }
 
 /* HOME */
 
 #home {
-  background: linear-gradient(to bottom, #010310 0, #0c1142 20%, #45125e 45%, #d53567 59%, #f0c3d9 50%, #0c1142 60%);
+  background: linear-gradient(to bottom, #010310 0, #0c1142 20%, #45125e 45%, #d53567 57%, #f0c3d9 60%);
   background-size: 100% var(--background-height, 100vh);
   position: relative;
   height: 100vh;
@@ -51,6 +51,7 @@ a {
   font-weight: 300;
   animation: intro-animation 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   pointer-events: none;
+  z-index: 1;
 }
 
 @keyframes intro-animation {
@@ -136,18 +137,18 @@ a {
 }
 
 #home .grid-container {
-  /* background: red; */
+  background: #0c1142;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 45vh;
+  height: 40vh;
   overflow: hidden;
 }
 
 #home .grid {
   position: absolute;
   bottom: 0;
-  height: 135%;
+  height: 151%;
   width: 100%;
   /* left: 50%; */
   background-size: cover;
