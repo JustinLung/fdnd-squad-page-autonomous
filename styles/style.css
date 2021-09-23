@@ -24,7 +24,7 @@ body {
   cursor: url(../assets/Mouse-cursor.png), default;
 }
 
-a {
+a, button {
   text-decoration: none;
   cursor: url(../assets/Mouse-pointer.png), default;
 }
@@ -630,7 +630,6 @@ a {
 }
 
 #window a {
-  cursor: pointer;
   background: transparent;
   border: none;
   background-color: #c0c0c0;
