@@ -11,7 +11,7 @@ export default [
     },
     {
         "name": "Nandita",
-        "link": "https://nandita.student.fdnd.nl/",
+        "link": "https://cdn.discordapp.com/attachments/871761581590052925/890532175777243146/MicrosoftTeams-image.png",
         "foto": "./assets/students/nandita.png"
     },
     {
